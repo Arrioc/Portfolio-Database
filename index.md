@@ -49,12 +49,12 @@
 &nbsp;
 
 * References
- * ###### Chodorow, K. (2013). Mongo DB: The definitive guide (2nd ed.). O’Reilly Media, Inc. https://www.oreilly.com/library/view/mongodb-the-definitive/9781449344795/
+ * ###### Chodorow, K. (2013). _Mongo DB: The definitive guide_ (2nd ed.). O’Reilly Media, Inc. https://www.oreilly.com/library/view/mongodb-the-definitive/9781449344795/
 
- * ###### Sriparasa, S., & D’mello, B. (2018). JavaScript and JSON essentials : Build light weight, scalable, and faster web applications with the power of JSON (2nd ed.). Packt Publishing. https://search-ebscohost-com.ezproxy.snhu.edu/login.aspx?direct=true&db=nlebk&AN=1801025&site=eds-live&scope=site
+ * ###### Sriparasa, S., & D’mello, B. (2018). _JavaScript and JSON essentials : Build light weight, scalable, and faster web applications with the power of JSON_ (2nd ed.). Packt Publishing. https://search-ebscohost-com.ezproxy.snhu.edu/login.aspx?direct=true&db=nlebk&AN=1801025&site=eds-live&scope=site
 
- * ###### Factor, P. (2020, October 6). How to use the MongoDB profiler and explain() to find slow queries. Studio3T. Retrieved June 3, 2021, from https://studio3t.com/knowledge-base/articles/mongodb-query-performance/
+ * ###### Factor, P. (2020, October 6). _How to use the MongoDB profiler and explain() to find slow queries. Studio3T._ Retrieved June 3, 2021, from https://studio3t.com/knowledge-base/articles/mongodb-query-performance/
 
- * ###### Stack Exchange Inc. (2012, December 12). How can I see the execution time for the aggregate command? StackOverflow. Retrieved June 3, 2021, from https://stackoverflow.com/questions/14021605/mongodb-how-can-i-see-the-execution-time-for-the-aggregate-command
+ * ###### Stack Exchange Inc. (2012, December 12). _How can I see the execution time for the aggregate command? StackOverflow._ Retrieved June 3, 2021, from https://stackoverflow.com/questions/14021605/mongodb-how-can-i-see-the-execution-time-for-the-aggregate-command
 
 
