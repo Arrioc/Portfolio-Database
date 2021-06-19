@@ -2,6 +2,8 @@
 [Introduction](https://arrioc.github.io/Introduction/) | [Software Design & Engineering](https://arrioc.github.io/Software-Design/) | [Algorithms & Data Structures](https://arrioc.github.io/Algorithms-DataStructures/) | [Old Source Code](https://github.com/Arrioc/CS340_client-server) | [New Source Code](https://github.com/Arrioc/Enhanced-Artifact)
 
 # NoSQL Database MongoDB
+My plan for database enhancement is to utilize more advanced administrative methods to investigate and apply performance tuning on the database, with the end-goal of improving database efficiency by speeding up its reads and writes.
+
 * ## Knowledge Acquisition
   * I learned quite a bit about how NoSQL distributed databases work. They are very efficient because they only use “rows” (only the concept of a “row” is replaced with a more flexible model which is a called “document”) whereas SQL databases use columns and rows that make up tables (Chodorow, 2013, p. 3). The ability to use only rows allows for indexing (Chodorow, 2013, p. 81). When a search is performed on an indexed field, only that field is looked at (by using a pointer) (Chodorow, 2013, pp. 81). This allows for higher performance and efficiency as the database grows (Chodorow, 2013, pp. 3-4). 
 
