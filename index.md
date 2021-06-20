@@ -41,7 +41,7 @@ My plan for database enhancement is to utilize more advanced administrative meth
   
   * Using a Studio 3T guide, I learned how to use profiling by applying profile queries, but first I needed to execute my module’s queries. I wrote all my queries and aggregations in MongoDB shell-style commands, first testing them in my original project for accuracy and then running them in IntelliShell. I did this because once the profiler is on, one can confuse oneself with bad entries that were logged. The profiler logged my entries, and then I ran profile-based queries given by the guide to investigate each query and aggregation. I honestly did not change as much as I wanted to in fine-tuning reads and writes because almost all my indexes proved to be speeding up reads and there were no needed indexes that I missed (Factor, 2020).
 
-  * One feature of IntelliShell that I think is exceptional is that one can see the time an aggregation takes. I conducted research in many places, and most claimed that one cannot accurately time aggregations through a Mongo shell in version 2.6.12 (Stack Exchange Inc, 2012). I felt the milliseconds given were very consistent with real-time results when comparing queries.
+  * One feature of IntelliShell that I think is exceptional is that one can see the time an aggregation takes. I conducted research in many places, and most claimed that one cannot accurately time aggregations through a Mongo shell in version 2.6.12 (StackOverflow, 2012). I felt the milliseconds given were very consistent with real-time results when comparing queries.
  
   * ![Figure 2](https://user-images.githubusercontent.com/73560858/122122006-451d5380-cdfa-11eb-9022-69884cfae35d.png)
   * ###### Figure 2: An example of a profiling command showing 16ms on the aggregation “APIindustryReport” using Studio 3T.
@@ -53,10 +53,10 @@ My plan for database enhancement is to utilize more advanced administrative meth
   * **References**
    * ###### Chodorow, K. (2013). _Mongo DB: The definitive guide_ (2nd ed.). O’Reilly Media, Inc. https://www.oreilly.com/library/view/mongodb-the-definitive/9781449344795/
 
-   * ###### Sriparasa, S., & D’mello, B. (2018). _JavaScript and JSON essentials : Build light weight, scalable, and faster web applications with the power of JSON_ (2nd ed.). Packt Publishing. https://search-ebscohost-com.ezproxy.snhu.edu/login.aspx?direct=true&db=nlebk&AN=1801025&site=eds-live&scope=site
-
    * ###### Factor, P. (2020, October 6). _How to use the MongoDB profiler and explain() to find slow queries. Studio3T._ Retrieved June 3, 2021, from https://studio3t.com/knowledge-base/articles/mongodb-query-performance/
 
-   * ###### Stack Exchange Inc. (2012, December 12). _How can I see the execution time for the aggregate command? StackOverflow._ Retrieved June 3, 2021, from https://stackoverflow.com/questions/14021605/mongodb-how-can-i-see-the-execution-time-for-the-aggregate-command
+   * ###### Sriparasa, S., & D’mello, B. (2018). _JavaScript and JSON essentials : Build light weight, scalable, and faster web applications with the power of JSON_ (2nd ed.). Packt Publishing. https://search-ebscohost-com.ezproxy.snhu.edu/login.aspx?direct=true&db=nlebk&AN=1801025&site=eds-live&scope=site
+
+   * ###### StackOverflow. (2012, December 12). _How can I see the execution time for the aggregate command?_ Retrieved June 3, 2021, from https://stackoverflow.com/questions/14021605/mongodb-how-can-i-see-the-execution-time-for-the-aggregate-command
 
 
